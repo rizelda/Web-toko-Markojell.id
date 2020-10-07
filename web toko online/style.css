@@ -1,0 +1,177 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+width: 71px;
+height: 19px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+nav ul li a:active{
+    color: red;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.ok h1{
+        width: 463px;
+        height: 130px;
+        left: 180px;
+        top: 225px;
+        margin-left: 30px;
+        font-family: Amaranth;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 130%;
+}
+.ok p{
+    width: 381px;
+    height: 96px;
+    left: 180px;
+    top: 375px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%; 
+}
+.ok .button{
+    margin-left: 29px;
+    background: red;
+    padding: 8px 30px;
+
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.ok .button:hover{
+    background: black;
+}
+.foto img{
+    width: 600px;
+    margin-left: 150px;
+
+}
+.bar img{
+    margin-top: 80px;
+    width: 250px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.prod h2{
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+}
+
+.prod img{
+    width: 300px;
+}
+.prod h4{
+    margin-left: 10px;
+    text-align: center;
+}
+.prod p{
+    text-align: center;
+}
+.prod .fas{
+color: yellow;
+margin-bottom: 30px;
+
+}
+.prod .button{
+    background-color: red;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+}
+.banner img{
+    width: 1300px;
+    height: 500px;
+    margin: 50px 30px;
+    margin-bottom: 100px;
+}
+.banyak .button{
+background-color: red;
+padding: 5px 30px;
+text-decoration: none;
+color: white;
+margin-left: 550px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about h2{
+   text-align: center;
+   color: red; 
+}
+.about p{
+    margin: 30px 100px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+/* or 29px */
+
+text-align: center;
+}
+.kontak{
+    background-color: gainsboro;
+}
+.kontak h2{
+    text-align: center;
+    color: red;
+}
+.kontak form{
+   margin-left: 500px;
+}
+form .button{
+    color: white;
+    background: red;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+.footer .fab{
+    margin: 10px 8px;
+}
+.footer p{
+    margin-left: 735px;
+}

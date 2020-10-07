@@ -1,0 +1,325 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+width: 71px;
+height: 19px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+nav ul li a:active{
+    color: red;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.prod h2{
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+}
+.satu img{
+    width: 300px;
+}
+.satu h4{
+    margin-left: 10px;
+    text-align: center;
+}
+.satu p{
+    text-align: center;
+}
+.satu .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+    }
+.satu .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+
+}
+.dua img{
+    width: 300px; 
+}
+.dua h4{
+    margin-left: 10px;
+    text-align: center; 
+}
+.dua p{
+    text-align: center;
+}
+.dua .fas{
+    color: yellow;
+    margin-bottom: 30px;  
+}
+.dua .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+}
+.tiga img{
+    width: 300px;
+}
+.tiga h4{
+    margin-left: 10px;
+    text-align: center; 
+}
+
+.tiga p{
+    text-align: center;
+}
+.tiga .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.tiga .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+}
+.empat img{
+    width: 300px;
+}
+.empat h4{
+    margin-left: 10px;
+    text-align: center; 
+}
+.empat p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.empat .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.empat .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+}
+.lima img{
+    width: 300px;
+    margin-top: 30px;
+}
+.lima h4{
+    margin-left: 10px;
+    text-align: center; 
+}
+.lima p{
+    text-align: center;
+}
+.lima .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.lima .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;  
+}
+.enam img{
+    width: 300px;
+    margin-top: 30px;
+}
+.enam h4{
+    text-align: center;
+}
+.enam p{
+    text-align: center;
+}
+.enam .fas{
+    color: yellow;
+    margin-bottom: 30px; 
+}
+.enam .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;  
+}
+.tujuh img{
+    width: 300px;
+    margin-top: 30px;
+}
+.tujuh h4{
+    text-align: center;
+}
+.tujuh p{
+    text-align: center;
+}
+.tujuh .fas{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.tujuh .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+}
+.delapan img{
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+}
+.delapan h4{
+    text-align: center;
+}
+.delapan p{
+    text-align: center;
+}
+.delapan .fas{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.delapan .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px; 
+}
+.sembilan img{
+    width: 300px;
+    margin-top: 30px;
+}
+.sembilan h4{
+    text-align: center;
+
+}
+.sembilan p{
+    text-align: center;
+}
+.sembilan .fas{
+    color: yellow;
+    margin-bottom: 30px;
+}
+.sembilan .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px; 
+}
+.sepuluh img{
+    width: 300px;
+    height: 230px;
+    margin-top: 30px;
+}
+.sepuluh h4{
+    text-align: center;
+}
+.sepuluh p{
+    text-align: center;
+}
+.sepuluh .fas{
+    color: yellow;
+    margin-bottom: 22px;
+}
+.sepuluh .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px; 
+}
+.sebelas img{
+    width: 300px;
+    height: 235px;
+    margin-top: 30px;
+}
+.sebelas h4{
+    text-align: center;
+}
+.sebelas p{
+    text-align: center;
+}
+.sebelas .fas{
+    color: yellow;
+    margin-bottom: 17px;
+}
+.sebelas .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px; 
+}
+.tigabelas img{
+    width: 300px;
+    height: 235px;
+    margin-top: 30px;
+}
+.tigabelas h4{
+    text-align: center;
+}
+.tigabelas p{
+    text-align: center;
+}
+.tigabelas .fas{
+    color: yellow;
+}
+.tigabelas .button{
+    background-color: orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 90px; 
+}
